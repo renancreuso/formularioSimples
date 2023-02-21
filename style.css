@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    background-color: #288FB4;
+   
+}
+
+.cadastro__titulo,h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #030102;
+    text-align: center;
+    
+}
+.titulo{
+    font-family: 'Roboto', sans-serif;
+    color: #030102;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0.3em;
+}
+.entrada{
+    
+  
+   margin-bottom: 0.8em;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    width: 20%;
+    height: 35em;
+    border-radius: 04%;
+    margin: 10em auto;
+}
+form .container{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+
+
+    
+}
+.botao{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    /*margin: 5em 7em;*/
+    background-color:#288FB4;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    border: none;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    color: #030102;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+ 
+}
+
+
+.apresentacao{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+    width: 30%;
+    background-color:#FFFFFF;;
+    margin: 10% auto;
+    border-radius: 10px;
+}
+.apresentacao_titulo{
+    
+    text-align: center;
+    background-color: #288FB4;
+    margin: 1px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.container02{
+    color: #030102;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 3%;
+}
+.botao2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 1em;
+    margin-left: 10em;
+    
+    background-color:#288FB4;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    border: none;
+}
+.botao2 :hover{
+    background-color: #32ACD9;
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 16px;
+
+}
